@@ -1,0 +1,6 @@
+source("cachematrix.R")
+m<-makeCacheMatrix(matrix(c(1,3,5,61),2,2))
+m1<-cacheSolve(m)
+print(m1)
+m2<-cacheSolve(m)
+print(m2)
